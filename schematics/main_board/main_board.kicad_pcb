@@ -7291,7 +7291,7 @@
 			(uuid "be5a30ca-de93-4ec5-a61c-e94322cbbae2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Amphenol_132134-10_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11964,15 +11964,15 @@
 			(uuid "492edbd9-44e7-4558-a1fd-b422136cb9a6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_CUI_SJ1-3515N_Horizontal.step"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_Ledino_KB3SPRS_Horizontal.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 3.5 -4.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -12758,15 +12758,15 @@
 			(uuid "d1ce3303-da7b-4992-b1bd-483ca5e43523")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical.step"
+		(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 2.5 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -18793,7 +18793,7 @@
 			(uuid "69e4b9d1-b124-402e-bf17-a52a8c2fb236")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.3x5.3mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23914,14 +23914,14 @@
 		(uuid "4217aeb3-f250-49db-9c3b-f372388db213")
 	)
 	(gr_line
-		(start 185.999999 123.495902)
-		(end 85.999999 123.495902)
+		(start 86 123.5)
+		(end 86 43.5)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "496a50ac-a9bf-462c-9300-a1fe006279a4")
+		(uuid "a608e016-edd5-4697-8e26-62f17ad49b1c")
 	)
 	(gr_line
 		(start 186 43.5)
@@ -23934,14 +23934,14 @@
 		(uuid "72f437d6-a27d-4460-ac6e-9b815e2ebaef")
 	)
 	(gr_line
-		(start 86 123.5)
-		(end 86 43.5)
+		(start 185.999999 123.495902)
+		(end 85.999999 123.495902)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "a608e016-edd5-4697-8e26-62f17ad49b1c")
+		(uuid "496a50ac-a9bf-462c-9300-a1fe006279a4")
 	)
 	(gr_text "jacekskowronekk@gmail.com"
 		(at 96 118 0)
